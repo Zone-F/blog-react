@@ -8,7 +8,7 @@ import {
 import Article from "./article";
 import Categories from "./categories";
 import Home from "./home";
-import Aside  from "../layouts/Aside";
+import Aside from "../layouts/Aside";
 const AppRouter = () => {
   return (
     <Router>
