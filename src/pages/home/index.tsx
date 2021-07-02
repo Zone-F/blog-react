@@ -54,7 +54,7 @@ const list = [
 ]
 const Home = () => {
   const articles = list.map((article: Article) => {
-    return <ArticleList id={article.id} title={article.title} body={article.body} createTime={article.createTime} />
+    return <ArticleList key={article.id} id={article.id} title={article.title} body={article.body} createTime={article.createTime} />
   })
   return (
     <div id="content" className="index">
